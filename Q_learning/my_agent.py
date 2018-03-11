@@ -38,9 +38,9 @@ _SELECT_ARMY = actions.FUNCTIONS.select_army.id
 _NOT_QUEUED = [0]
 _SELECT_ALL = [0]
 
-#reward=numpy.matrix('2 0 0 0 0 0 0 0 ; 0 2 0 0 0 0 0 0;0 0 2 0 0 0 0 0;0 0 0 2 0 0 0 0;0 0 0 0 2 0 0 0;0 0 0 0 0 2 0 0;0 0 0 0 0 0 2 0 ;0 0 0 0 0 0 0 2')# limited Reward table
+reward=numpy.matrix('2 0 0 0 0 0 0 0 ; 0 2 0 0 0 0 0 0;0 0 2 0 0 0 0 0;0 0 0 2 0 0 0 0;0 0 0 0 2 0 0 0;0 0 0 0 0 2 0 0;0 0 0 0 0 0 2 0 ;0 0 0 0 0 0 0 2')# sparse Reward table
 #reward=numpy.matrix('2 1 0 -1 -2 -1 0 1 ; 1 2 1 0 -1 -2 -1 0;0 1 2 1 0 -1 -2 -1;-1 0 1 2 1 0 -1 -2;-2 -1 0 1 2 1 0 -1;-1 -2 -1 0 1 2 1 0;0 -1 -2 -1 0 1 2 1 ;1 0 -1 -2 -1 0 1 2')# detailed Reward table
-reward=numpy.matrix('0 0 0 0 2 0 0 0 ; 0 0 0 0 0 2 0 0;0 0 0 0 0 0 2 0;0 0 0 0 0 0 0 2;2 0 0 0 0 0 0 0;0 2 0 0 0 0 0 0;0 0 2 0 0 0 0 0 ;0 0 0 2 0 0 0 0')# limited Reward table
+#reward=numpy.matrix('0 0 0 0 2 0 0 0 ; 0 0 0 0 0 2 0 0;0 0 0 0 0 0 2 0;0 0 0 0 0 0 0 2;2 0 0 0 0 0 0 0;0 2 0 0 0 0 0 0;0 0 2 0 0 0 0 0 ;0 0 0 2 0 0 0 0')# limited Reward table
 
 numpy.set_printoptions(threshold=numpy.nan)
       
